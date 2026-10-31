@@ -1,0 +1,100 @@
+{
+  "roles": {
+    "owner": {
+      "code": "OWN",
+      "name": "Owner",
+      "modules": [
+        {
+          "code": "PTR",
+          "name": "Project Tracker",
+          "transactions": [
+            {
+              "code": "VOP",
+              "name": "View Owned Projects",
+              "action": "VIEW"
+            },
+            {
+              "code": "CP",
+              "name": "Create Project",
+              "action": "CREATE"
+            },
+            {
+              "code": "UP",
+              "name": "Update Project",
+              "action": "UPDATE"
+            },
+            {
+              "code": "VPD",
+              "name": "View Project Details",
+              "action": "VIEW"
+            },
+            {
+              "code": "MPM",
+              "name": "Manage Project Members",
+              "action": "UPDATE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "data": {
+    "projects": [
+      {
+        "id": "PRJ-001",
+        "name": "iTASK Platform Development",
+        "description": "Build the organizational work management platform.",
+        "owner": "Nikitha",
+        "status": "In Progress",
+        "priority": "High",
+        "progress": 65,
+        "startDate": "2026-10-01",
+        "dueDate": "2026-11-15"
+      },
+      {
+        "id": "PRJ-002",
+        "name": "Government Services Portal",
+        "description": "Design workflows for public sector activities.",
+        "owner": "Nikitha",
+        "status": "In Progress",
+        "priority": "High",
+        "progress": 45,
+        "startDate": "2026-10-05",
+        "dueDate": "2026-11-20"
+      },
+      {
+        "id": "PRJ-003",
+        "name": "CRM Process Research",
+        "description": "Document sales and customer relationship workflows.",
+        "owner": "Nikitha",
+        "status": "Completed",
+        "priority": "Medium",
+        "progress": 100,
+        "startDate": "2026-09-15",
+        "dueDate": "2026-10-15"
+      },
+      {
+        "id": "PRJ-004",
+        "name": "Campaign Management UI",
+        "description": "Prepare the campaign workflow interface.",
+        "owner": "Nikitha",
+        "status": "On Hold",
+        "priority": "Medium",
+        "progress": 30,
+        "startDate": "2026-10-10",
+        "dueDate": "2026-10-25"
+      },
+      {
+        "id": "PRJ-005",
+        "name": "Knowledge Sharing Portal",
+        "description": "Organize internal learning materials and resources.",
+        "owner": "Nikitha",
+        "status": "Not Started",
+        "priority": "Low",
+        "progress": 0,
+        "startDate": "2026-10-28",
+        "dueDate": "2026-11-30"
+      }
+    ]
+  }
+}
